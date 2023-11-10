@@ -82,6 +82,28 @@ body{
     padding-right: 0px;
 }
 
+.tour{
+    background-color: #904f05;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 25px 0;
+}
+
+.tour .col{
+    border: 1px solid #FFFFFF;
+    background-color: black;
+    padding: 25px;
+}
+
+.tour .col p{
+    margin-bottom: 0;
+    transition: all 0.3s;
+}
+
+.tour .col p:hover{
+    transform: scale(1.2);
+}
+
 .milo_j div img{
     height: 300px;
     width: 300px;
