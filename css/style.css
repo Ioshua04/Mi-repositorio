@@ -76,7 +76,7 @@ body{
 }
 
 .padding-img{
-    padding-right: 0px;
+    padding-right: 15px;
 }
 
 .ratio{
@@ -105,9 +105,13 @@ body{
     transform: scale(1.2);
 }
 
+.tour{
+    margin-right: 0;
+}
+
 .milo_j div img{
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     border-radius: 10px;
 }
 
