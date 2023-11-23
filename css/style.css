@@ -19,10 +19,8 @@ body{
     margin-bottom: 3px;
 }
 
-.header{
-    background-color: black;
-    height: 85px;
-    padding: 5px;
+.navbar-collapse{
+    flex-grow: 0;
 }
 
 .header .logo{
