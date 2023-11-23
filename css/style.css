@@ -29,7 +29,6 @@ body{
 }
 
 .header .logo a{
-    height: 70px;
     width: auto;
     transition: all 0.3s;
     color: #FFFFFF;
@@ -78,6 +77,10 @@ body{
 
 .padding-img{
     padding-right: 0px;
+}
+
+.ratio{
+    margin-top: 20px;
 }
 
 .tour{
