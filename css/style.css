@@ -94,7 +94,15 @@ nav .navbar-collapse {
   transform: scale(1.2);
 }
 
+.conciertos {
+  text-align: center;
+}
+
 .discografia {
+  text-align: center;
+}
+
+.contacto {
   text-align: center;
 }
 
