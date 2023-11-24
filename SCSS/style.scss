@@ -1,0 +1,117 @@
+@import "./partials/variables";
+*{
+    font-family: $fuente, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+body{
+    background-color: $color-bg;
+    position: relative;
+    width: $ancho;
+    height: $alto;
+    .body_style{
+        background-color: $color-bg;
+        color: rgb(13, 9, 38);
+        margin-bottom: 3px;
+    }    
+}
+
+nav{
+    .navbar-collapse{
+        flex-grow: 0;
+    }
+}
+
+.header .logo{
+    cursor: pointer;
+    margin-right: auto;
+    a{
+        width: auto;
+        transition: all 0.3s;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    a:hover{
+        transform: scale(1.2);
+    }
+}
+
+.header nav button{
+    background-color: #FFFFFF;
+}
+
+.header .nav_link{
+    list-style: none;
+    margin-bottom: 0;
+    li{
+        display: inline-block;
+        padding: 0 20px;
+        a:hover{
+            color: #904f05;
+        }
+    }
+    li:hover{
+        transform: scale(1.1);
+        
+    }
+}
+
+.header .nav_link a{
+    font-size: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.container{
+    text-align: center;
+}
+
+.container-fluid h1{
+    padding-top: 50px;
+}
+
+.ratio{
+    margin-top: 20px;
+}
+
+.tour{
+    background-color: $color-bg;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 25px 0;
+    margin-right: 0;
+    .col{
+        border: 1px solid #FFFFFF;
+        background-color: $color-primary;
+        padding: 25px;
+        p{
+            margin-bottom: 0;
+            transition: all 0.3s;
+        }
+        p:hover{
+            transform: scale(1.2);
+        }
+        
+    }
+}
+
+.discografia{
+    text-align: center;
+}
+
+.milo_j div img{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: $color-primary;
+    margin-right: 0px;
+    color: #FFFFFF;
+}
+
+@import "./partials/queries";

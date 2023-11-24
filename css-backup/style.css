@@ -88,6 +88,7 @@ body{
     color: #FFFFFF;
     cursor: pointer;
     padding: 25px 0;
+    margin-right: 0;
 }
 
 .tour .col{
@@ -111,7 +112,6 @@ body{
 
 .discografia{
     text-align: center;
-
 }
 
 .milo_j div img{
