@@ -69,8 +69,15 @@ nav{
     text-align: center;
 }
 
-.container-fluid h1{
-    padding-top: 50px;
+.container-fluid {
+    h1{
+        padding-top: 50px;
+    }
+}
+
+.padding_img{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .ratio{
@@ -121,5 +128,3 @@ nav{
     margin-right: 0px;
     color: #FFFFFF;
 }
-
-@import "./partials/queries";

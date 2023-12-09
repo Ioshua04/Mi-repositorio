@@ -70,6 +70,11 @@ nav .navbar-collapse {
   padding-top: 50px;
 }
 
+.padding_img {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .ratio {
   margin-top: 20px;
 }
