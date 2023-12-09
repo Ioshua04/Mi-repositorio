@@ -85,6 +85,7 @@ nav .navbar-collapse {
   cursor: pointer;
   padding: 25px 0;
   margin-right: 0;
+  margin-left: 0px;
 }
 .tour .col {
   border: 1px solid #FFFFFF;
